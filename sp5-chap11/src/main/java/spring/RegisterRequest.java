@@ -24,11 +24,11 @@ public class RegisterRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-    public String getCofirmPassword() {
+    public String getConfirmPassword() {
         return confirmPassword;
     }
-    public void setCofirmPassword(String cofirmPassword) {
-        this.confirmPassword = cofirmPassword;
+    public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
     }
     public String getName() {
         return name;

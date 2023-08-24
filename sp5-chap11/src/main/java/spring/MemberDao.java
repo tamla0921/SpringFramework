@@ -113,10 +113,10 @@ public class MemberDao {
     }
     
     // 클래스를 이용해서 메서드
-    public List<Member> selectAll2() {
-        List<Member> results = jdbcTemplate.query("select * from MEMBER", new MemberRowMapper());
-        return results;
-    }
+//    public List<Member> selectAll2() {
+//        List<Member> results = jdbcTemplate.query("select * from MEMBER", new MemberRowMapper());
+//        return results;
+//    }
     
     public int count() {
         Integer count = jdbcTemplate.queryForObject("select count(*) from MEMBER", Integer.class); // requiredType the type that the result object is expected to match
